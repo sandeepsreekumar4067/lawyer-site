@@ -1,0 +1,30 @@
+:root {
+    --bodyBg: #E9EAEE;
+    --grey:#67676F;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+body {
+    background-color: var(--bodyBg);
+    padding: 0;
+    margin: 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+* {
+    font-family: "Lexend", sans-serif;
+    overflow-x: hidden;
+}

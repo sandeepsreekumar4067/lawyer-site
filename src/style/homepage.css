@@ -1,0 +1,73 @@
+.homePage-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.homePage-title-container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.homePage-title{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4rem;
+    box-sizing: border-box;
+    padding-left: 8rem;
+}
+#greyTitle{
+    color: var(--grey);
+}
+#subtitle{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: var(--grey);
+}
+.contact-container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.8rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.contact-container span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.contact-container .bi-telephone-fill , .bi-envelope-fill{
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: var(--grey);
+    justify-content: center;
+    font-size: 0.8rem;
+}
+.homepage-image-container{
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    height: 90%;
+    width: 65%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow-x: hidden;
+}
+.homepage-image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
